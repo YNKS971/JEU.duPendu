@@ -1,4 +1,4 @@
-.leContainer{
+.leContainer {
     display: flex;
     text-align: center;
     border: solid greenyellow;
@@ -6,34 +6,57 @@
     width: 100%;
 }
 
-.titre{
+.titre {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+font-family: Breaking Bad ;
     font-weight: bold;
-   font-size: xx-large;
-   
+    font-size: xx-large;
+  color: #2a7e2e ;
+ 
+
 }
 
-.regles{
+.regles {
     font-weight: bold;
-   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+button {
+    font-style: italic;
+    margin: 0.5rem;
+    height: 3rem;
+    width: 3rem;
+    color: grey;
+
+}
+
+.containerMystere {
+    height: 8rem;
+    border: solid red;
+}
+
+/* 
+ .mystere{
+   
+ } */
+
+.affichage {
+    border: solid blue;
+    height: 8rem;
+    width: 100%;
+}
+
+@font-face{
+font-family: Breaking Bad ;
+src: url(assets/fonts/Heart\ Breaking\ Bad.otf);
+
 
 }
 
 button{
-    font-style: italic;
-    margin: 0.5rem;
-    height:3rem ; 
-    width: 3rem;
-    color: grey;
-
- }
-
- .oui{
-   height: 8rem;
-   border: solid red;
- }
-
- .mystere{
-   
- }
+    font-family: "Breaking Bad";
+  color: #2a7e2e ;
+}
