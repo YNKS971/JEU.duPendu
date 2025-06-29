@@ -1,62 +1,108 @@
 .leContainer {
-    display: flex;
-    text-align: center;
     border: solid greenyellow;
-    height: 30rem;
+    height: 40rem;
     width: 100%;
 }
 
-.titre {
-    display: flex;
-    justify-content: space-around;
-font-family: Breaking Bad ;
-    font-weight: bold;
-    font-size: xx-large;
-  color: #2a7e2e ;
- 
+/* Say my Word */
+h1 {
+    text-align: center;
+}
 
+.titre {
+    text-align: center;
+    font-family: Breaking Bad;
+    font-size: xx-large;
+    color: #2a7e2e;
 }
 
 .regles {
+    display: flex;
+    justify-content: space-between;
     font-weight: bold;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: solid pink;
+    width: 100%;
+
+}
 
 
+.devine {
+    font-weight: bold;
+    font-style: italic;
+    font-size: x-large;
+}
+
+img {
+    height: 7rem;
 }
 
 button {
     font-style: italic;
     margin: 0.5rem;
-    height: 3rem;
+    height: 0.5rem;
     width: 3rem;
-    color: grey;
+    color: white;
+    font-size: x-large;
+    background-color: #2a7e2e;
+
 
 }
 
-.containerMystere {
-    height: 8rem;
+.clavier {
+    display: flex;
+    justify-content: center;
+   
+    height: 12rem;
+  
+    width: 54rem;
+    flex-wrap: wrap;
     border: solid red;
 }
 
-/* 
- .mystere{
-   
- } */
+
+.lettres {
+
+    height: 5rem;
+
+
+
+}
+
+
+
 
 .affichage {
-    border: solid blue;
-    height: 8rem;
+    /* border: solid blue; */
+    height: 13rem;
     width: 100%;
 }
 
-@font-face{
-font-family: Breaking Bad ;
-src: url(assets/fonts/Heart\ Breaking\ Bad.otf);
-
-
+.mystere {
+    font-size: xx-large;
+    text-align: center;
 }
 
-button{
-    font-family: "Breaking Bad";
-  color: #2a7e2e ;
+/* Police breaking bad */
+@font-face {
+    font-family: Breaking Bad;
+    src: url(assets/fonts/Heart\ Breaking\ Bad.otf);
 }
+
+/* @media (max-width:(400px)){
+
+.leContainer{
+    width: 90%;
+}
+    button{
+    width: 1rem;
+}
+.clavier{
+    display: flex;
+    width: 20%;
+   border: solid red;
+
+}
+.lettres{
+  width: 30rem;
+}
+} */
