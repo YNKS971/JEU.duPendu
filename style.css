@@ -1,5 +1,5 @@
 .leContainer {
-    border: solid greenyellow;
+    /* border: solid greenyellow; */
     height: 40rem;
     width: 100%;
 }
@@ -20,7 +20,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     font-weight: bold;
-    border: solid pink;
+    /* border: solid pink; */
     width: 100%;
 
 }
@@ -56,7 +56,7 @@ button {
   
     width: 25rem;
     flex-wrap: wrap;
-    border: solid red;
+    /* border: solid red; */
 }
 
 
@@ -77,8 +77,22 @@ button {
 
 
 
+.Grah{
+    display: flex;
+   justify-content: end;
+}
+
+
+.new{
+   
+    width: 8rem;
+    border-radius: 1rem;
+ background-color: red;
+
+}
+
 .riendutout{
-    height: 8rem;
+    height: 5rem;
 }
 /* Police breaking bad */
 @font-face {
